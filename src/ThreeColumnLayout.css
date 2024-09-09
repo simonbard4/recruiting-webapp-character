@@ -1,0 +1,14 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto); /* Automatically adjust column width based on content */
+  gap: 16px; /* Space between columns */
+}
+
+.grid-item {
+  padding: 16px;
+  border: 1px solid #ddd; /* Border to visually separate columns */
+}
+
+.clickable-text {
+  cursor: pointer;
+}

@@ -1,22 +1,15 @@
-import { useState } from 'react';
 import './App.css';
-import { ATTRIBUTE_LIST, CLASS_LIST, SKILL_LIST } from './consts.js';
+import CharacterSheet from './CharacterSheet.jsx';
 
 
 function App() {
-  const [num, setNum] = useState(0);
   return (
     <div className="App">
       <header className="App-header">
-        <h1>React Coding Exercise</h1>
+        <h1>React Coding Exercise - Simon Bard</h1>
       </header>
       <section className="App-section">
-        <div>
-          Value:
-          {num}
-          <button>+</button>
-          <button>-</button>
-        </div>
+        <CharacterSheet />
       </section>
     </div>
   );
